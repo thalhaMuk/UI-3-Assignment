@@ -271,3 +271,172 @@ header .header-image-credit {
     top: 30px;
     word-spacing: 1px;
 }
+
+.testimony-section {
+    height: 378px;
+    position: relative;
+    top: -23px;
+}
+
+.contact-section {
+    height: 551px;
+    position: relative;
+    top: -22px;
+}
+
+.contact-column {
+    width: 200px;
+    position: relative;
+    left: -78px;
+    bottom: 43px;
+}
+
+.contact-column h2 {
+    font-size: 30px;
+}
+
+.contact-column h2::after {
+    display: block;
+    content: '';
+    width: 29px;
+    height: 4px;
+    background: #e8432e;
+    position: absolute;
+    top: 41px;
+}
+
+.contact-column p {
+    width: 280px;
+    font-size: 23px;
+    line-height: 30px;
+    font-weight: 300;
+    font-family: Neris-Thin;
+    position: relative;
+    top: 68px;
+    left: -2px;
+}
+
+.contact-column .contact-details {
+    width: 176px;
+    font-size: 15px;
+    color: #b8b8b8;
+    font-weight: 250;
+    font-family: Neris-Thin;
+    line-height: 22px;
+    position: relative;
+    top: 84px;
+}
+
+.contact-form-column {
+    position: relative;
+    left: 8px;
+    top: 32px;
+    width: 725px;
+}
+
+.contact-form-column h3 {
+    font-size: 23px;
+    line-height: 24px;
+    font-weight: 900;
+    padding-bottom: 50px;
+    position: relative;
+    top: 13px;
+}
+
+.contact-form-column input {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid #cccccc;
+    padding: 7px;
+}
+
+.contact-form-column input::placeholder {
+    opacity: 0.502;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    font-weight: 300;
+    font-family: Neris-thin;
+    transform: translate(-5px, -7.5px);
+}
+
+.first-line {
+    position: relative;
+    top: -5px;
+    left: -2px;
+}
+
+.first-line input {
+    width: 350px
+}
+
+.contact-input-email {
+    position: relative;
+    left: 26px;
+}
+
+.contact-input-email::placeholder {
+    transform: translate(-8px, -7.5px) !important;
+}
+
+.contact-input-message {
+    position: relative;
+    top: 31px;
+    left: -2px;
+}
+
+.contact-button {
+    position: relative;
+    top: 60.5px;
+    left: 4px;
+}
+
+.contact-button img {
+    width: 15px;
+}
+
+.contact-button p {
+    position: relative;
+    left: 12px;
+    font-family: Neris-Light;
+    font-weight: 600;
+    font-size: 16px;
+    width: 110px;
+}
+
+.behance,
+.twitter,
+.dribbble,
+.forrst,
+.google {
+    position: relative;
+    left: 58px;
+    top: 21px;
+}
+
+.twitter {
+    top: 45px;
+}
+
+.dribbble {
+    top: 61px;
+}
+
+.forrst {
+    top: 73px;
+}
+
+.google {
+    top: 91px;
+}
+
+.map-section {
+    position: relative;
+    top: -22px;
+}
+
+.map-section img {
+    height: 204.5px;
+    border-bottom: #e8432e 5px solid;
+}
