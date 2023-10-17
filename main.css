@@ -1,0 +1,85 @@
+@font-face {
+    font-family: Neris;
+    src: url("Fonts/Neris-Black.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Neris-SemiBold;
+    src: url("Fonts/Neris-SemiBold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Neris-Light;
+    src: url("Fonts/Neris-Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Neris-Thin;
+    src: url("Fonts/Neris-Thin.otf") format("opentype");
+}
+
+body {
+    font-family: Neris, sans-serif;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+header {
+    height: 855px;
+    background: url("images/Header_background.png") center center no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+header .header-top {
+    position: relative;
+    top: 3px;
+}
+
+header .header-logo img {
+    width: 95%;
+    position: relative;
+    left: 128px;
+    bottom: 1px;
+}
+
+header .header-burger img {
+    width: 93.5%;
+    position: relative;
+    right: 128.5px;
+    top: 1px;
+}
+
+header .header-bottom {
+    position: relative;
+    left: 105.5px;
+    bottom: 12px;
+}
+
+header .header-hero-word {
+    width: 550px;
+    font-family: Neris-SemiBold;
+    font-size: 68px;
+    color: #ffffff;
+}
+
+header .header-subtitle {
+    position: relative;
+    top: 28px;
+    left: 2px;
+}
+
+header .header-arrow {
+    width: 47px;
+    height: 47px;
+}
+
+header .header-subtitle-text {
+    font-size: 22px;
+    color: #ffffff;
+    font-family: Neris-SemiBold;
+    position: relative; 
+    bottom: 13px;
+    left: 6px;
+    word-spacing: 1.5px;
+}
