@@ -97,8 +97,7 @@ header .header-image-credit {
 }
 
 .welcome-section {
-    background-color: #ffffff;
-    height: 465px;
+    height: 440px;
 }
 
 .welcome-top h2 {
@@ -234,4 +233,41 @@ header .header-image-credit {
     position: relative;
     left: 11.5px;
     font-size: 15.5px;
+}
+
+.works-section {
+    height: 848px;
+    position: relative;
+    bottom: 23px;
+}
+
+.ad-section {
+    height: 376px;
+    position: relative;
+    bottom: 23px;
+    background: url("images/video_background.png") center center no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.ad-video-player img {
+    width: 89px
+}
+
+.ad-video-player {
+    padding-top: 90px;
+}
+
+.ad-section p {
+    width: 591.5px;
+    font-size: 30px;
+    line-height: 34px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: Neris-Thin;
+    text-align: center;
+    position: relative;
+    left: 460px;
+    top: 30px;
+    word-spacing: 1px;
 }
