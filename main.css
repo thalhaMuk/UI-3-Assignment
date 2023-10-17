@@ -78,8 +78,160 @@ header .header-subtitle-text {
     font-size: 22px;
     color: #ffffff;
     font-family: Neris-SemiBold;
-    position: relative; 
+    position: relative;
     bottom: 13px;
     left: 6px;
     word-spacing: 1.5px;
+}
+
+header .header-image-credit {
+    font-family: Neris-Light;
+    opacity: 0.200;
+    font-size: 13px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 300;
+    position: relative;
+    left: 1322px;
+    top: 30px;
+}
+
+.welcome-section {
+    background-color: #ffffff;
+    height: 465px;
+}
+
+.welcome-top h2 {
+    position: relative;
+    top: 23.5px;
+    left: 132px;
+    font-size: 30px;
+}
+
+.welcome-top h2::after {
+    display: block;
+    content: '';
+    width: 29px;
+    height: 3.75px;
+    background: #e8432e;
+    position: absolute;
+    top: 41.5px;
+    left: -1px;
+}
+
+.welcome-item h2 {
+    font-family: Neris-Light;
+    opacity: 0.702;
+    width: 254px;
+    font-size: 23px;
+    font-weight: 250;
+    line-height: 30px;
+    word-spacing: -1px;
+    position: relative;
+    top: 13px;
+    left: 58px;
+}
+
+.welcome-subitem-1 {
+    position: relative;
+    width: 271px;
+    top: 11.5px;
+    left: 39.5px;
+}
+
+.welcome-subitem-2 {
+    position: relative;
+    width: 271px;
+    top: 14.5px;
+    left: 53.5px;
+}
+
+.welcome-subitem-3 {
+    position: relative;
+    width: 271px;
+    top: 13px;
+    left: 66px;
+}
+
+.welcome-subitem-1 .welcome-logo img {
+    width: 24px;
+}
+
+.welcome-subitem-2 .welcome-logo img {
+    width: 23px;
+}
+
+.welcome-subitem-3 .welcome-logo img {
+    width: 21px;
+}
+
+.welcome-subitem-1 h3,
+.welcome-subitem-2 h3,
+.welcome-subitem-3 h3 {
+    font-family: Neris-Light;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    padding-left: 7px;
+}
+
+.welcome-subitem-1 h3 {
+    position: relative;
+    left: 8px;
+    bottom: 2px;
+}
+
+.welcome-subitem-2 h3 {
+    position: relative;
+    left: 6px;
+    bottom: 5px;
+}
+
+.welcome-subitem-3 h3 {
+    position: relative;
+    left: 7px;
+    bottom: 3px;
+}
+
+.welcome-subitem-1 p,
+.welcome-subitem-2 p,
+.welcome-subitem-3 p {
+    font-family: Neris-Light;
+    opacity: 0.400;
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 250;
+    width: 260px;
+}
+
+.welcome-subitem-1 p {
+    position: relative;
+    top: 14px;
+    left: 2px;
+}
+
+.welcome-subitem-2 p {
+    position: relative;
+    top: 11px;
+    left: 1px;
+}
+
+.welcome-subitem-3 p {
+    position: relative;
+    top: 12px;
+    left: 1px;
+}
+
+.welcome-bottom {
+    position: relative;
+    left: 131px;
+    bottom: 15px;
+}
+
+.welcome-bottom p {
+    font-family: Neris-Light;
+    font-weight: 600;
+    position: relative;
+    left: 11.5px;
+    font-size: 15.5px;
 }
