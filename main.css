@@ -438,5 +438,40 @@ header .header-image-credit {
 
 .map-section img {
     height: 204.5px;
+    width: 100%;
     border-bottom: #e8432e 5px solid;
+}
+
+.footer {
+    font-size: 13px;
+    font-family: Neris-Light;
+    line-height: 24px;
+    word-spacing: -1px;
+    letter-spacing: -0.01px;
+}
+
+.footer span {
+    color: #e8432e;
+    position: relative;
+    left: -1px;
+    letter-spacing: -0.25px;
+}
+
+.footer-rights {
+    color: #000 !important;
+    position: relative;
+    left: 1px !important;
+}
+
+.footer-left {
+    position: relative;
+    left: 204px;
+    top: 23.5px;
+}
+
+.footer-right {
+    position: relative;
+    left: -204px;
+    top: 23.5px;
+    letter-spacing: -0.25px;
 }
