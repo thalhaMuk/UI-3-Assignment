@@ -239,6 +239,273 @@ header .header-image-credit {
     height: 848px;
     position: relative;
     bottom: 23px;
+    background-color: #e8432e;
+}
+
+.works-left {
+    position: relative;
+    top: 215px;
+}
+
+.works-left-arrow img {
+    width: 33px !important;
+    position: relative;
+    left: 37px;
+    top: -204px;
+}
+
+.works-likes p {
+    font-size: 16px;
+    color: #fff;
+    font-family: Neris;
+}
+
+.works-likes img {
+    width: 15px !important;
+    position: relative;
+    left: 159px;
+    top: -76px;
+}
+
+.works-likes p {
+    position: relative;
+    left: 127px;
+    top: -34px;
+    font-size: 15px;
+    color: #ed6958;
+    font-family: Neris-Thin;
+}
+
+.works-left-line {
+    border-left: 1px solid #d03c29;
+    height: 532px;
+    position: absolute;
+    left: 189px;
+    top: 0;
+}
+
+.works-left img {
+    width: 175px;
+}
+
+.works-main {
+    position: relative;
+    top: -460px;
+}
+
+.works-heading {
+    font-size: 32px;
+    color: #fff;
+    font-family: Neris;
+    position: relative;
+    top: 94px;
+    left: 203px;
+}
+
+.works-heading h2 {
+    font-size: 30px;
+}
+
+.works-heading::after {
+    display: block;
+    content: '';
+    width: 29px;
+    height: 4px;
+    background: #fff;
+    position: absolute;
+    top: 42px;
+}
+
+.works-description {
+    position: relative;
+    top: 166px;
+    left: 202px;
+}
+
+.works-description h2 {
+    width: 223px;
+    letter-spacing: -0.5px;
+    font-size: 24px;
+    line-height: 30px;
+    color: #fff;
+    font-family: Neris-Thin;
+}
+
+
+.works-description p {
+    width: 255px;
+    font-size: 14px;
+    line-height: 23px;
+    color: #fff;
+    font-family: Neris-Thin;
+    position: relative;
+    top: 23px;
+    letter-spacing: 0.5px;
+}
+
+.works-button {
+    position: relative;
+    top: 97px;
+    left: 17px;
+}
+
+.works-button p {
+    width: 300px;
+    font-size: 15px;
+    word-spacing: -0.5px !important;
+    color: #fff;
+    font-weight: 800;
+    font-family: Neris-Light;
+    position: relative;
+    left: -2px;
+}
+
+.works-heading-arrow {
+    position: relative;
+    top: 22px;
+    left: -14px;
+    width: 14px;
+}
+
+.works-middle-line {
+    border-left: 1px solid #d03c29;
+    height: 532px;
+    position: absolute;
+    left: 470px;
+    top: 216px;
+}
+
+.carousel {
+    position: relative;
+    top: -550px;
+    color: #fff;
+}
+
+.carousel-details h3 {
+    font-size: 19px;
+    color: #fff;
+    font-weight: 300;
+    font-family: Neris-Light;
+}
+
+.carousel-item-1 {
+    position: relative;
+    top: 17px;
+    left: 487px;
+}
+
+.carousel-item-1 .carousel-image {
+    width: 538.5px;
+}
+
+.carousel-item-1 .carousel-details {
+    position: relative;
+    top: 21px;
+}
+
+.carousel-item-1 .carousel-likes {
+    position: relative;
+    left: 375px;
+    top: 2px;
+}
+
+.carousel-item-1 .carousel-likes p {
+    font-size: 15px;
+    color: #fff;
+    font-family: Neris-Thin;
+}
+
+.carousel-item-1 .carousel-likes img {
+    position: relative;
+    top: -2.5px;
+    left: 11px;
+    width: 15px;
+}
+
+.carousel-work {
+    font-size: 13px;
+    letter-spacing: -0.25px;
+    font-weight: 500;
+    color: #000;
+    font-family: Neris-Light;
+    position: relative;
+    top: -11.5px;
+    left: -0.5px;
+}
+
+.carousel-work-description {
+    font-size: 13px;
+    color: #fff;
+    font-family: Neris-Light;
+    width: 340px;
+    position: relative;
+    top: -20px;
+    line-height: 22px;
+}
+
+.carousel-button p{
+    font-size: 13px;
+    line-height: 32px;
+    color: #fff;
+    font-family: Neris-Light;
+    position: relative;
+    top: -36px;
+    left: 23px;
+}
+
+.carousel-button img{
+    width: 11px;
+    position: relative;
+    top: -9px;
+    left: 1px;
+}
+
+.carousel-item-2 {
+    position: relative;
+    top: 17px;
+    left: 515px;
+}
+
+.carousel-item-2 .carousel-details {
+    position: relative;
+    top: 20px;
+    left: 1px;
+    opacity: 0.300;
+}
+
+.carousel-item-2 .carousel-work {
+    position: relative;
+    top: -4px;
+}
+
+.carousel-item-2 .carousel-work-description {
+    position: relative;
+    top: -12px;
+}
+
+.carousel-item-2 .carousel-button {
+    position: relative;
+    top: 9px;
+    left: 1px;
+}
+
+.carousel-item-2 .carousel-image {
+    width: 459px;
+}
+
+.works-right-arrow {
+    width: 33px !important;
+    position: relative;
+    left: 392px;
+    top: -425px;
+}
+
+.works-last-line {
+    border-left: 1px solid #d03c29;
+    height: 532px;
+    position: relative;
+    left: 500px;
+    top: 2px;
 }
 
 .ad-section {
