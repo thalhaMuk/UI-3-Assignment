@@ -730,10 +730,17 @@ header .header-image-credit {
     top: -22px;
 }
 
-.map-section img {
-    height: 204.5px;
+.map {
     width: 100%;
+    height: 204px;
     border-bottom: #e8432e 5px solid;
+}
+
+.map-pointer {
+    position: relative;
+    top: -110px;
+    left: 466px;
+    width: 25px;
 }
 
 .footer {
@@ -742,6 +749,8 @@ header .header-image-credit {
     line-height: 24px;
     word-spacing: -1px;
     letter-spacing: -0.01px;
+    position: relative;
+    top: -33px;
 }
 
 .footer span {
